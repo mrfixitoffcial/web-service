@@ -3,7 +3,7 @@
 ## What is included
 - Responsive customer homepage with service categories, searchable worker cards and profile details.
 - Direct call / WhatsApp links for real worker profiles with provided phone numbers.
-- Admin interface to create, edit, pause, activate and delete profiles.
+- Admin interface to create, edit, pause, activate and delete profiles, with a footer-only demo password prompt.
 - Listing expiry filter and ₹499/month subscription overview display.
 - Six clearly identified *fictional sample* profiles, with no contact numbers.
 
@@ -11,7 +11,7 @@
 Open `index.html` in a browser. For more reliable local storage, run `python3 -m http.server 8000` from the folder and open `http://localhost:8000`.
 
 ## IMPORTANT: Not a deployable paid marketplace backend
-This is an interactive visual prototype, **not** a secure production admin system. Admin is available without authentication, and demo data is stored in that browser's `localStorage`. It is not shared across browsers, and its 'Active' and expiry inputs are manual demos—not payment proof. Never collect real ₹499 subscriptions through this prototype.
+This is an interactive visual prototype, **not** a secure production admin system. Admin can be opened only via the footer password prompt (`0812`), but this is client-side only and **not secure authentication**. The password is visible to anyone inspecting the site code. Demo data is stored in that browser's `localStorage`. It is not shared across browsers, and its 'Active' and expiry inputs are manual demos—not payment proof. Never collect real ₹499 subscriptions through this prototype.
 
 ## Build the production site in Wix
 1. Create a Wix site named **MrFixit**, and install **CMS**, **Members Area**, and **Pricing Plans**.
